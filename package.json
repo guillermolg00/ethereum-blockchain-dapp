@@ -1,8 +1,8 @@
 {
-  "name": "blockchain-game",
+  "name": "Guillermo López Gómez",
   "version": "0.1.0",
-  "description": "Blockchain memory game",
-  "author": "gregory@dappuniversity.com",
+  "description": "Blockchain game",
+  "author": "guillermolopezg00@gmail.com",
   "dependencies": {
     "@craco/craco": "^6.2.0",
     "@openzeppelin/contracts": "^2.3.0",

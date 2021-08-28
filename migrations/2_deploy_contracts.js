@@ -1,5 +1,5 @@
-const MemoryToken = artifacts.require("MemoryToken");
+const GameToken = artifacts.require("GameToken");
 
 module.exports = function(deployer) {
-  // Code goes here...
+  deployer.deploy(GameToken);
 };

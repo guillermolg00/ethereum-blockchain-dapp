@@ -1,6 +1,5 @@
 import React from 'react';
-import ReactDom from 'react-dom';
-import './App.css';
+import './Buttons.css';
 
 const Styles = [
     "btn-blue",
@@ -15,7 +14,7 @@ const Sizes = [
 ]
 
 
-const Button = ({
+const NumberButton = ({
     children,
     type,
     onClick,
@@ -23,13 +22,10 @@ const Button = ({
     buttonSize= Sizes[1]
 }) => {
     
-
-
     return(
-        <button className={`font-serif rounded-lg shadow-lg ${buttonStyle} ${buttonSize}`} onClick={onClick} type={type}>
+        <button className={`font-serif rounded-lg shadow-lg ${buttonStyle} ${buttonSize}`} onClick={() => onClick(children)} type={type}>
             {children}
         </button>
     )
 }
-
-export default Button
+export default NumberButton

@@ -1,25 +1,23 @@
-import React from 'react'
-import Button from './Button'
+import React from 'react';
+import NumberButton from './Buttons/NumberButton';
+import ClearButton from './Buttons/ClearButton';
 import './App.css';
 
-const NumberSet = () => {
+const NumberSet = (props) => {
     return(
-        <div className="object-center justify-center w-auto h-auto grid grid-cols-3 auto-cols-max md:auto-cols-min gap-3">
-            <Button 
-            onClick={()=> {console.log ("you clicked on me") }}
-            type="number">
-            1 </Button>
-            <Button>2</Button>
-            <Button>3</Button>
-            <Button>4</Button>
-            <Button>5</Button>
-            <Button>6</Button>
-            <Button>7</Button>
-            <Button>8</Button>
-            <Button>9</Button>
-            <Button>0</Button>
-            <Button buttonStyle="btn-yellow">Del</Button>
-            <Button buttonStyle="btn-yellow">Send</Button>
+        <div className="grid grid-cols-3 auto-cols-max md:auto-cols-min gap-3">
+            <NumberButton type="number" onClick={props.addToInput}> 1 </NumberButton>
+            <NumberButton type="number" onClick={props.addToInput}> 2 </NumberButton>
+            <NumberButton type="number" onClick={props.addToInput}> 3 </NumberButton>
+            <NumberButton type="number" onClick={props.addToInput}> 4 </NumberButton>
+            <NumberButton type="number" onClick={props.addToInput}> 5 </NumberButton>
+            <NumberButton type="number" onClick={props.addToInput}> 6 </NumberButton>
+            <NumberButton type="number" onClick={props.addToInput}> 7 </NumberButton>
+            <NumberButton type="number" onClick={props.addToInput}> 8 </NumberButton>
+            <NumberButton type="number" onClick={props.addToInput}> 9 </NumberButton>
+            <NumberButton type="number" onClick={props.addToInput}> 0 </NumberButton>
+            <ClearButton buttonStyle="btn-yellow btn-medium" handleClear={() => this.setState({input: ""})}> Clear </ClearButton>
+            <NumberButton buttonStyle="btn-yellow btn-medium"> Send  </NumberButton>
         </div>
     )
 }

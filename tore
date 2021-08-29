@@ -1,0 +1,29 @@
+[33mcommit 3c9fae343cfc53ef37af73c0fdc0b523dd3dcfc7[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;33mtag: v0.3.0[m[33m)[m
+Author: guillermolg <guillermolopezg00@gmail.com>
+Date:   Sat Aug 28 13:17:18 2021 -0400
+
+    Button.jsx and NumberSet code was modified and optimized, in addition to creating custom styles and various visual arrangements
+
+[33mcommit d315ac2832eede48eede416b22f5a422e9fabdbc[m[33m ([m[1;33mtag: v0.1.0[m[33m)[m
+Author: guillermolg <guillermolopezg00@gmail.com>
+Date:   Fri Aug 27 23:39:17 2021 -0400
+
+    Created  'Number' and 'NumberSet' components
+
+[33mcommit 474a7375e06560cb4edebb3ee9509db8d76bf913[m[33m ([m[1;33mtag: v0.0.2[m[33m)[m
+Author: guillermolg <guillermolopezg00@gmail.com>
+Date:   Fri Aug 27 18:07:40 2021 -0400
+
+    some dependencies and links fixed
+
+[33mcommit 3d0649b87e42d5021cbe5ec9135fd0cf9944b005[m[33m ([m[1;33mtag: v0.0.1[m[33m)[m
+Author: guillermolg <guillermolopezg00@gmail.com>
+Date:   Fri Aug 27 17:58:02 2021 -0400
+
+    blank page with its dependencies
+
+[33mcommit 0b815400d2f2122c22861f8a285907a9114d40e5[m[33m ([m[1;33mtag: v0.0.0[m[33m)[m
+Author: guillermolg <guillermolopezg00@gmail.com>
+Date:   Fri Aug 27 17:42:49 2021 -0400
+
+    blank page with its dependencies

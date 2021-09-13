@@ -14,6 +14,10 @@
     @apply text-gray-600 bg-red-300 hover:bg-red-400 hover:bg-gray-700;
 }
 
+.btn-green{
+    @apply text-gray-600 bg-green-300 hover:bg-green-400 hover:bg-gray-700;
+}
+
 .btn-small{
     @apply text-sm py-1 px-3;
 }

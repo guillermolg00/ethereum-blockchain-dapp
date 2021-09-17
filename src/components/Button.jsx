@@ -24,7 +24,7 @@ const Button = ({
 }) => {
     return (
         <div>
-            <button onClick={() => onClick(children)} className={`font-serif rounded-lg shadow-lg min-w-4 ${buttonStyle} ${buttonSize}`}>{children}</button>
+            <button onClick={() => onClick(children)} className={`font-serif rounded-lg shadow-lg min-w-4 w-full ${buttonStyle} ${buttonSize} ${props.className}`}>{children}</button>
         </div>
     )
 }
